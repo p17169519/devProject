@@ -102,7 +102,7 @@ if (isset($_GET["action"])){
             <table>
               <tr>
                 <th>Item</th>
-                <th>Quantity</th>
+                <th>Qty</th>
                 <th>Price</th>
                 <th>Total</th>
               </tr>
@@ -154,11 +154,11 @@ if (isset($_GET["action"])){
                 echo '
                 <h3>Payment</h3>
                 <span class="line">
-                  <label for="cardName">Name on card:</label>
+                  <label for="cardName">Name on Card:</label>
                   <input id="cardName" name="cardName" placeholder="Name on card" required>
                 </span>
                 <span class="line">
-                  <label for="cardNumber">Name number:</label>
+                  <label for="cardNumber">Card Number:</label>
                   <input id="cardNumber" name="cardNumber" placeholder="Card Number" required>
                 </span>
                 <span class="line">

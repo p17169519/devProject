@@ -383,13 +383,16 @@ h5 {
 /****************************** menu end **********************************/
 
 /************************** checkout start ***********************************/
-.checkContainer {
+/* .checkContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  width: auto;
+} */
 
-#checkoutBasket {
+
+
+/* #checkoutBasket {
   border-style: none;
   display: flex;
   flex-direction: column;
@@ -397,11 +400,13 @@ h5 {
   padding: 5px;
   width: 70%;
   align-items: center;
-}
+} */
 
-#checkoutBasket table th a {
+/* #checkoutBasket table th a {
   padding: 0.3rem 0.5rem;
-}
+} */
+
+
 
 #newCost {
   font-family: 'Waiting for the Sunrise', cursive;
@@ -414,7 +419,7 @@ h5 {
 
 .line {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-align: center;
 }
 
@@ -434,6 +439,11 @@ h5 {
 .line a {
   width: 40%;
   text-decoration: none;
+}
+
+.pay {
+  margin: auto;
+  padding: inherit;
 }
 
 .pay p {
